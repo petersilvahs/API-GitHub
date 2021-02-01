@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-O SEU PERFIL NO GITHUB</title>
+
+    <link rel="stylesheet" href="./index.css">  
+</head>
+
+<body>
+    <header>
+    <div id="divInputButton"></div>
+
+    <h1 id="textHeader">Oh this page you can search for GitHub users,<br>
+        and also find friends profiles by clicking on 'Search User'</h1>
+        
+        <img class ="imgGithub" src="./Img/imgGitHub.png">
+        <input type="text" name="nome" value="" placeholder=" type here" size="17" id="inputText"></label>
+        <button class="searchUser" id="searchUser">Search User</button>
+    
+    </div>
+    </header>
+    <div class="backimg"></div>
+
+    <div id="divDados">
+        <p id="textoUsuario"></p>
+        <p id="nomeUsuario">></p>
+        <img id="imgUsuario">
+
+
+    </div>
+
+    <script src="./MVC/model.js"></script>
+    <script src="./MVC/controller.js"></script>
+    <script src="./MVC/views.js"></script>
+
+</body>
+<footer></footer>
+
+<!--
+Comentários:
+Alterações na imagem de fundo, pois a position absolute impede
+que seja colocado, o que foi possível fazer foi  mudar a cor do texto e colocar sobra.
+//-->
+</html>
+

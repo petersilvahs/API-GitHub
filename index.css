@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+}
+
+body{
+    background-image: url("./Img/coloback4.png");
+}
+
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;
+    font-size:x-large;
+    color: white;
+    text-shadow: 0.2em 0.2em 0.3em black;
+}
+
+#divInputButton{ 
+    margin-right: 20%;
+    top:3%;
+    left: 70%;
+    align-items: center;
+
+}
+
+input[type=text]{ 
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px;
+}
+
+#searchUser{
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.imgGithub{
+    max-width: 40px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+}
+
+.searchUser{
+    width: 8%;
+}
+
+/*Colocando position: absolute a imagem carrega mas tira a funcionalidade do botão*/
+/*classe sem funcionalidade*/
+.backimg{  
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*position: absolute;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+}
+
+
+
+
